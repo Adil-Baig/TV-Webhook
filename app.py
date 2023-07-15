@@ -12,7 +12,7 @@ def hello_trader():
 @app.route("/tradingview-to-webhook-order", methods=['POST'])
 def tradingview_webhook():
     data = json.loads(request.data)
-    price = data['strategy']['price']+2
+    price = data['strategy']['price']+10
     message = data['strategy']['message']
     passphrase = data['strategy']['passphrase']
     return {

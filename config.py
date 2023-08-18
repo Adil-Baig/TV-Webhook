@@ -1,0 +1,5 @@
+WEBHOOK_PASSPHRASE = "test123"
+
+API_KEY_GE3646 = "test_API_key"
+
+API_SECRET_GE3646 = "test_API_secret"
